@@ -36,6 +36,13 @@ div.header nav.snack-nav a{
 	text-decoration: none;
 }
 
+div.container {
+	padding: 40px 0;
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
 img.marisa {
 	display: block;
 	margin-left: auto;
