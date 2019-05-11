@@ -1,10 +1,37 @@
 body {
 	background-image: url("bg.png");
 	background-attachment: fixed;
+	margin: 0px;
 }
 
 p {
 	font-family: cantarell;
 	font-size: 20px;
-	text-align: justify;
+	text-align: center;
+}
+
+div.top {
+	background: #262626;
+	color: #F6F6F6;
+	text-align: center;
+	overflow: auto;
+	margin-top: -10px;
+	margin-bottom: -10px
+}
+
+div.header nav.snack-nav {
+	background: #F2EFE4;
+	border-bottom: 1px solid #D4CBB6;
+	padding: 8px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: .9em;
+	font-weight: 400;
+}
+
+div.header nav.snack-nav a{
+	font-size: .9em;
+	color: #3F3D32;
+	padding: 10px;
+	text-decoration: none;
 }
