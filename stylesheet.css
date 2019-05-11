@@ -4,10 +4,22 @@ body {
 	margin: 0px;
 }
 
+h2.witch {
+	text-align: center;
+	font-family: Iosevka;
+	font-size: 2em;
+	weight: bold;
+}
+
 p {
 	font-family: cantarell;
 	font-size: 20px;
 	text-align: center;
+}
+
+p.witchtext {
+	font-family: Iosevka;
+	text-align: left;
 }
 
 div.top {
@@ -43,6 +55,26 @@ div.container {
 	overflow: auto;
 }
 
+div.witchlinkcontainer {
+	font-family: Iosevka;
+	text-align: center;
+	padding-top: 30px;
+}
+div.witchtextcontainer {
+	font-size: 20px;
+	font-family: Iosevka;
+	padding: 25px;
+	width: 700px;
+	margin: 0 auto;
+	overflow: auto;
+	text-align: left;
+}
+
+div.witchcontainer {
+	font-family: Iosevka;
+	text-align: center;
+}
+
 img.marisa {
 	display: block;
 	margin-left: auto;
@@ -51,4 +83,27 @@ img.marisa {
 	width: 450px;
 	align: center;
 	position: center;
+}
+
+img.marivector {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 650px;
+	align: center;
+	position: center;
+}
+
+a.button {
+	display: inline-block;
+	margin-bottom: 1rem;
+	color: #F6F6F6;
+	background-color: #262626;
+	border-color: #F6F6F6;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 0.3rem;
+	text-decoration: none;
+	padding: 10px;
 }
